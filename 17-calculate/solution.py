@@ -1,8 +1,7 @@
 def calculate(operation, first, second, make_int=False, message=None):
-    """Perform operation on first + second, truncating to int if make_int.
-
-    Returns "'The result is ...' or message.
-    """
+    '''Perform operation on first + second, truncating to int if make_int.
+       Returns "'The result is ...' or message.
+    '''
 
     if message is None:
         message = 'The result is'
